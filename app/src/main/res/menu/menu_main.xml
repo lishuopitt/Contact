@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.lishuo.contact.MainActivity">
+    <item
+        android:id="@+id/add"
+        android:orderInCategory="100"
+        android:title="+"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/deleteAll"
+        android:orderInCategory="90"
+        android:title="-"
+        app:showAsAction="always" />
+</menu>
